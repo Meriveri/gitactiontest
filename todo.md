@@ -1,0 +1,2 @@
+- Create action for pull request
+- Create action for push on main
