@@ -5,5 +5,5 @@
 
 
 ## Hints
-- Look at package.json to know how to test/build things
+- Look at package.json to know how to test/build things (scripts are ran with `npm run scriptname`)
 - Look up what is a Dockerfile
