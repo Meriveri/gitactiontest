@@ -1,0 +1,17 @@
+name: deploy
+on: 
+  push:
+    branches: 
+      - main
+  
+jobs:
+  Deploy: 
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: install nodeJs
+        uses: actions/setup-node@v3
+      - run: npm ci 
+      - run: npm run test
+      - run: docker build -t aos .
