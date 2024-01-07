@@ -1,0 +1,2 @@
+- Create action for pull request that run tests
+- Create action for push on main that builds the app and create a docker image with built source
